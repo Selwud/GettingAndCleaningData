@@ -13,22 +13,39 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
 
 ## Selection and transformation
 The "test" and "train" data bases are merged together.
@@ -36,6 +53,7 @@ Regarding all the features above, the mean and standard deviation are selected.
 The variables are filtreted by subject and activities, with the following labels:
 - The subjects are labelled from 1 to 30
 - The activities are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING,        LAYING
+
 Finally, only the mean or standard deviation measurements are taken into account.
 
 The data provides for each subject and each activity the average value of the variable.
