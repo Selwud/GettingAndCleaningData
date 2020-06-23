@@ -1,14 +1,5 @@
----
-title: "CodeBook.md"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Data Description
-# Raw data
+# Data Description
+## Raw data
 The tidy data set is transformed based on the UCI HAR Data set. 
 The raw data is described as below in the original data set:
 
@@ -39,7 +30,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-# Selection and transformation
+## Selection and transformation
 The "test" and "train" data bases are merged together.
 Regarding all the features above, the mean and standard deviation are selected.
 The variables are filtreted by subject and activities, with the following labels:

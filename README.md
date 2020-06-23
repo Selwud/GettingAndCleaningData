@@ -1,12 +1,3 @@
----
-title: "README.md"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Introduction
 This document describes how the script "run_analysis.R" works and what the input and output should be.
 
